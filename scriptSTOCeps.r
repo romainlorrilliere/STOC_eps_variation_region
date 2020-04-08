@@ -968,8 +968,8 @@ analyseGroupe <- function(id=NA,ICfigureGroupeSp=TRUE,powerWeight=2,
 					correctionAbondanceNull = 0.000001,   titre ="Variation de l'indicateur groupe de spécialisation",
           listGroupe=c("generaliste","milieux batis","milieux forestiers","milieux agricoles"),
           listCouleur=c("black","firebrick3","chartreuse4","orange")) {
- # listGroupe = "Montane"
- # listCouleur = "darkgreen"
+ ## listGroupe = "Montane"
+ ## listCouleur = "darkgreen"
   col <- listCouleur
   names(col) <- listGroupe
     nameFile <- paste("Resultats/",id,"/variationsAnnuellesEspece_",id,".csv",sep="" )
